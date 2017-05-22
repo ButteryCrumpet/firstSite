@@ -1,0 +1,21 @@
+<div class="fullsect" ng-hide="libCtrl.reader">
+    <div id="scrollwrap">
+        <div class="classList" ng-repeat="class in libCtrl.pdfs" ng-class-odd="'odd'" ng-class-even="'even'">
+            <div id="className"><h4>{{class.classCode}}</h4></div>
+            <div class="pdflist" ng-repeat="pdf in class.readings">
+                <h3>{{pdf.rdngName}}</h3>
+                <p>Read by: {{pdf.readBy}}</p>
+                <img ng-src="{{pdf.image}}" ng-dblclick="libCtrl.refr($parent.$index, $index)" ng-animate-ref="pdfanimate" class="pdfanimate"/>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="fullsect" ng-show="libCtrl.reader">
+    <embed src="{{libCtrl.pdfs[libCtrl.actvParent].readings[libCtrl.actvChild].rdnglink}}" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html" ng-animate-ref="pdfanimate" class="pdfanimate">
+    <div id="rUtils">
+        <rcmnts></rcmnts>
+        <rtrans></rtrans>
+        <img id="exit2" class="button" src="pictures/exit%20icon.png"/ ng-click="libCtrl.backUp()">
+        <rnotes></rnotes>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+<div class="fullsect">
+    <div id="rdngSlct">
+        <div id="fullWrap">
+            <div id="noteRdngWrap" ng-repeat="class in noteRdngs.rdngList">
+                <img class="noteRdngList" ng-repeat="pdf in class.readings" src="{{pdf.image}}" ng-click="noteRdngs.refr($parent.$index, $index)" ng-class="{noteActive: $index == noteRdngs.actvChild && $parent.$index == noteRdngs.actvParent}"/>
+            </div>
+        </div>
+    </div>
+    <div id="noteWrap">
+        <div id="rdngNotes">
+            <h4>{{noteRdngs.rdngList[noteRdngs.actvParent].readings[noteRdngs.actvChild].rdngName}}</h4>
+            <p>{{noteRdngs.rdngList[noteRdngs.actvParent].readings[noteRdngs.actvChild].notes}}</p>
+        </div>
+        <div id="rdngWords">
+            <h4>Saved Words</h4>
+            <p ng-repeat="word in noteRdngs.rdngList[noteRdngs.actvParent].readings[noteRdngs.actvChild].words">
+                <a href="https://translate.google.com/#en/ja/{{word}}">{{word}}</a>
+            </p>
+        </div>
+    </div>
+</div>

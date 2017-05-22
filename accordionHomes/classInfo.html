@@ -1,0 +1,21 @@
+<div class="fullsect">
+    <table id="classesTabs">
+        <tr>
+            <td class="fuckoff"></td>
+            <td ng-class="{actX: tabCtrl.tabX == 1}" ng-click="tabCtrl.setX(1)">Syllabus</td>
+            <td ng-class="{actX: tabCtrl.tabX == 2}" ng-click="tabCtrl.setX(2)">Discussion</td>
+            <td id="sideCell" ng-class="{actX: tabCtrl.tabX == 3}" ng-click="tabCtrl.setX(3)">Assignments</td>
+        </tr>
+        <tr>
+            <td ng-class="{actY: tabCtrl.tabY == 0}" ng-click="tabCtrl.setY(0)">PLS365 Politics and Society in Southeast Asia</td>
+            <td colspan="3" rowspan="4"  id="tblecntr">
+                <div class="cntrPcInfo" ng-if="tabCtrl.tabX == 1"><syllabus class="sylTable"></syllabus></div>
+                <div class="cntrPcInfo" ng-if="tabCtrl.tabX == 2"><discussion></discussion></div>
+                <div class="cntrPcInfo" ng-if="tabCtrl.tabX == 3"><assignments></assignments></div>
+            </td>
+        </tr>
+        <tr><td ng-class="{actY: tabCtrl.tabY == 1}" ng-click="tabCtrl.setY(1)">PLS465 Comparative Politics</td></tr>
+        <tr><td ng-class="{actY: tabCtrl.tabY == 2}" ng-click="tabCtrl.setY(2)">CMP2 Composition II</td></tr>
+        <tr><td ng-class="{actY: tabCtrl.tabY == 3}" ng-click="tabCtrl.setY(3)">HE101 History of Baking</td></tr>
+    </table>
+</div>

@@ -1,0 +1,8 @@
+<div class="assList" ng-repeat="assignment in tabCtrl.inf[tabCtrl.tabY].assignments">
+    <div class="assHead"><h4>{{assignment.title}}</h4>
+        <p>Due: {{assignment.dueDate}}</p></div>
+    <div id="assDetails">
+        <p>{{assignment.instructions}}</p>
+        <div class="assSubmit">Submit</div>
+    </div>
+</div>

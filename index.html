@@ -1,0 +1,70 @@
+<!doctype html>
+<html ng-app="aria">
+<head>
+    <title>ARiA</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-animate.js"></script>
+    <script src="game.js"></script>
+    <script src="accordion.js"></script>
+    <script src="homeAnimation.js"></script>
+    <script src="appAria.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animations.css">
+</head>
+<body>
+    <ul id="accordion">
+        <li id="cover">
+            <div id="mreInfo">Angular div here
+            <img id="exit" src="pictures/exit%20icon.png"/>
+            </div>
+            <div class="clickpoint">
+                <div id="snsIcons">
+                    <img src="pictures/snsIcons/facebook.png"/>
+                    <img src="pictures/snsIcons/googleplus.png"/>
+                    <img src="pictures/snsIcons/twitter.png"/>
+                    <img src="pictures/snsIcons/linkedin.png"/>
+                </div>
+            </div>
+            <a href="https://www.rainymood.com/"><img id="logo" src="pictures/logo1.png"/></a>
+            <video id="vid" controls>
+                <source src="/Videos/AriaVideo.mp4" type="video/mp4">
+            </video>
+            <h2 id="info">More information about ARiA</h2>
+        </li>
+        <li>
+            <div class="clickpoint" id="library">
+                <div class="clcktitle">Library</div>
+            </div>
+            <library></library>
+        </li>
+        <li>
+            <div class="clickpoint" id="classes">
+                <div class="clcktitle">Classes</div>
+            </div>
+            <classinfo></classinfo>
+        </li>
+        <li>
+            <div class="clickpoint" id="notes">
+                <div class="clcktitle">Notes</div>
+            </div>
+            <notes></notes>
+        </li>
+        <li>
+            <div class="clickpoint" id="settings">
+                <div class="clcktitle">Settings</div>
+            </div>
+            <div class ="fullsect">
+                <div id="gameWrap">
+                    <h4>Asteroids: Top Value Version</h4>
+                </div>
+                <div id="gameBtnWrap">
+                    <div class="gameBtn" onclick="startGame()">Click to play!</div>
+                    <div class="gameBtn" onclick="restart()">Restart!</div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</body>
+</html>

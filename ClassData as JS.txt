@@ -1,0 +1,128 @@
+var pdflist = [
+    {
+        className: "Politics and Society in Southeast Asia",
+        classCode: "PLS367",
+        readings: [{
+            rdnglink: "/pdfs/Democratization Readings 2.pdf",
+            rdngName: "The Global Wave of Democratization",
+            image:"/pdfs/images/DR2.jpg",
+            readBy: "31/6",
+            read: true,
+            commentNum: 4,
+            comment: [{
+                author: "Tom Selek",
+                body: "Really good point on pg. 5"
+                },{
+                author: "Abe Shinzo",
+                body: "I don't agree with anything in this"
+                },{
+                author: "Machiavelli",
+                body: "They should have just shot them"
+                },{
+                author: "Delia Smith",
+                body: "Not useful reading, I prefer the H101 readings"
+                }],
+            notes: "Lots of notes \n even more notes - ain't that great... \n but wait... there's more",
+            },{
+            rdnglink: "",
+            rdngName: "Malaysia",
+            image: "",
+            readBy: "",
+            read: false,
+            commentNum: 0,
+            comment: [{
+                author: "",
+                body: "",
+            }],
+            }],
+        infos: {
+            description: "This course provides a contemporary introduction to Southeast Asia that considers the politics of knowledge production about the region (area studies), its techniques (fieldwork, case studies, and textual analysis), and its people. The concept of a region called \”Southeast Asia\” emerged as a strategic theater of the second World War, yet the exceptional diversity across the region belies such simple classifications. Rapid shifts between traditional power networks, imperialism, war and the emergence of the nation-state speak the dynamic peaks of modernity. Across the region, brutal dictatorships spawn pro-democracy social movements, communist regimes liberalize, genocide is remembered, migrants and refugees depart, while global cities provide virtual highways that threaten the conventional categories of national identity.    The politics of South \”East\” Asia must confront these complex junctures where past and future meet, and where power is most visible and contentious.\n\nFollowing a brief overview of Southeast Asia  \’s vast political geography, our investigations will proceed toward case studies of four countries: Thailand, Burma, Cambodia, and Laos. Our class plan is also coordinated with a visiting lecture from the Thai poet Zakariya Amataya from Thailand, visual materials from Phnom Penh  \’s Tuolsleng Genocide Museum in Cambodia, and resources from the Burma Issues Video Organizing (VO) project along the Thai-Burma border. The hope is that students will also acquire a better understanding of the kinds of jobs, internships and ongoing projects that will further their knowledge of, and connection to, this dynamic region.",
+            objectives: "1.	Develop and refine academic writing abilities.\n 2.	Familiarize students with key authors and issues in Southeast Asia 3. Gain experience in transdiscliplinary approaches to global and regional change. \n 4. Explore analytical and critical perspectives in the political, cultural, and conceptual geography of Southeast Asia.",
+            textbooks: "//Delphine Schrank / The Rebel of Rangoon: A Tale of Defiance and Deliverance in Burma",
+            refbooks: "Zakariya Amataya. No Woman in Poetry. Bangkok: Khled Thai Press, 2010.  \nBenedict Anderson,  \”Census, Map, Museum \”in Imagined Communities. New York: Verso, 1983.  \nJacques Bertrand, Political Change in Southeast Asia, Cambridge: Cambridge University Press, 2013. \nPandit Chanrochanakit,  \”Deforming Thai Politics: As Read through Thai Contemporary Art, \”Third Text 25, no. 4 (July 2011): 419-429. \nGeorge Orwell, Burmese Days. New York: Penguin, 2001. \nJames A. Tyner, Genocide and the Geographical Imagination: Life and Death in Germany, China, and Cambodia. Lanham, Ma: Rowman &amp; Littlefield, 2012. (Ch. 1 1-32; Ch. 2 111-152) \nImmanuel Wallerstein,  \”What Cold War in Asia? An Interpretive Essay, \”in Zheng Yangwen, Hong Liu, and Michael Szonyi, eds., The Cold War in Asia: The Battle for Hearts and Minds. Boston: Brill, 2010: 15-24. \nThongchai Winichakul, Siam Mapped. Honolulu: University of Hawaii Press, 1994. \n \nRecommended \nChristina Fink, Living in Silence in Burma: Surviving Under Military Rule, 2nd edition. Chiangmai: Silkworm Press, 2009. \nMay Adadol Ingawanij and Benjamin McKay, Glimpses of Freedom: Independent Cinema in Southeast Asia. Ithaca: University of Cornell Press, 2011.  \nMichael Jerryson,  \”Militarizing Buddhism: Violence in Southern Thailand, \”in Michael K. Jerryson and Mark Juergensmeyer, Buddhist Warfare, eds. New York: Oxford University Press, 2010. \nEmma Larkin, Finding George Orwell in Burma. New York: Penguin, 2006. \nMultatuli, Max Havelaar: Or the Coffee Auctions of the Dutch Trading Company. New York: Penguin, 1995.  \nMalcolm H. Murfett, ed. Cold War Southeast Asia. London: Marshall Cavendish, 2012.  \nJose Rizal, Noli Me Tangere. New York: Penguin, 2006. \nVatthana Pholsena, Post-war Laos: The Politics of Culture, History, and Identity. Ithaca: Cornell University Press, 2006.",
+            assessment: "1) Participation and class attendance 20% \n2) 1 Country Analysis (2-3 double-spaced pages) 20% \n3) 1 Book Review (4-5 double-spaced pages) 20% \n4) 1 Group Presentation 10% \n5) 1 Final paper (8-10 double-spaced pages) 30%",
+            acdmBackground: "This is a 300-level course, therefore you are expected to demonstrate your ability to participate in class discussions and execute confident academic writing.",
+            links: "<campussquare.do?_flowExecutionKey=_c3D459C2C-A128-134A-7966-8FDBA835C4E0_k7D6A64EC-60B4-9432-8891-C5AFEEE11043&_eventId=download&seqNo=1",
+            policies: "Class Policies\n\n1.	No laptops or other electronic devices may be used in class.\n\n2.	You must use English during class time, unless situation requires use of another language.\n\n3.	Unrelated conversation should subside when the class begins. \n\n4.	All students must earn their participation grade.\n\n5.	Plagiarism will result in an F for the course. An example would include borrowing a sentence from an online review of Masha Gessen\”s Words Will Break Cement (for your own assignment in Week 10-12) without using the proper citation. To avoid this mistake, simply use quotations marks and a bibliography when necessary. \n\n6.	Job-hunting absences are unexcused, unless you provide a 3-paragraph summary of the reading or film for the class missed or unless you provide official paperwork. \n\n7.	Do not email me with excuses for absences (unless emergency). You may explain reasons either before or after you return to class. \n",
+            notes: "Not Appllicable",
+        },
+    },{
+        className: "Comparative Politics",
+        classCode: "PLS465",
+        readings: [{
+            rdnglink: "/pdfs/10+Butler+Lecture.pdf",
+            rdngName: "Judith Butler: Precarious Life",
+            image: "/pdfs/images/jb.jpg",
+            readBy: "05/07",
+            read: false,
+            commentNum: 7,
+            comment: [{
+                author: "Brady Bunch",
+                body: "I don't understand this, someone help please"
+                },{
+                author: "Miles Davis",
+                body: "tootytoottoot bobitty bopbop"
+            }],
+        }],
+        infos: {
+            description: "In a world of unsettled political change and rapid global transition, we find ourselves comparing things. Political Scientists once compared the \”domestic\” situations of one or more countries in order to better understand differences and similarities in the \”international\” political order. As \”comparativists,\” they analyzed nation-states, government institutions and, later, sub-national groups that operated within or against a nation-state\’s hold on power. Bureaucratic agencies, political elites, and electoral systems provided procedures and systems to compare at the national level, but so too did revolutions, democracy movements, non-governmental organizations, and neighborhood associations. In this class we will think about the different ways of reading the nation-state as a highly ambiguous category, and consider the global forces that impact its people in dynamic ways. \n Comparative politics is also concerned with progress and global modernity, where theories live and die in political events. Samuel Huntington (1971) wrote of the necessary \”costs and pains\” of progress as part of the \”inevitable\” process of modernization, but economic fragility, patriarchy, corporate loopholes, and the complicity of so-called democratic countries to authoritarian shifts require a reevaluation of what exactly is being compared to measure progress. Together we will develop case studies from around the globe, but especially the transnational sites that connect the Middle East, Europe, Africa and Asia. We will pay particular attention to questions of dominance and marginality (as in dependency theory and world-systems theory), and questions of large-scale impact that run from colonial legacies to what Francis Fukuyama calls the end of history. Moving between conventional textbook approaches and the non-conventional mediums of fiction, film, and global media, the course utilizes an interdisciplinary, intertextual and problem-based approach to comparativism to address urgent political realities.\n",
+            objectives: "1. Develop a familiarity with comparativism in scenes of global politics.\n\n2. Analyze the cultural dimensions of the political, especially in different kinds of media that emerge in different geographic locales.\n\n3. Improve writing ability through application of key social science concepts \n\n4. Evaluate the weaknesses and strengths of comparative methodologies.\n\n5. Grasp the relationship between historic national experience and contemporary political probabilities.\n",
+            textbooks: "\\J. Tyler Dickovick and Jonathan Eastwood / Comparative Politics: Integrating Theories, Methods, and Cases",
+            refbooks: "(Available at AIMS)\n1. Asef Bayat, Life as Politics: How Ordinary People Change the Middle East. Stanford: Stanford University Press, 2010.\n\n2. Hassan Blasim, The Corpse Exhibition and Other Stories of Iraq. New York: Penguin, 2014\n\nGardner Bovingdon, \”Everyday Resistance: Guerilla Actions in the Battle over Public Opinion,\” in The Uyghurs: Strangers in Their Own Land. New York: Columbia University Press, 2010. Pp. 80-104\n\nJudith Butler, \”Mourning becomes the law.\” Verso Books (Online) 14 November 2015. Accessed from http://sxpolitics.org/mourning-becomes-the-law-judith-butler-from-paris/13688.\n\nJudith Butler, \”Precariousness and Grieivability\-When is Life Grievable?\” Verso Books (Online) 16 November 2015. Accessed from http://www.versobooks.com/blogs/2339-judith-butler-precariousness-and-grievability-when-is-life-grievable .&nbsp;&nbsp;&nbsp;\nJames Fearon and David Laitin \”Ethnicity, Insurgency and Civil War.\” American Political Science Review 97:1 (February 2003), 75-90. \n\nFawaz A. Gerges, ed., The New Middle East: Protest and Revolution in the Arab World. Cambridge: Cambridge University Press, 2014.\n\nMalu Halasa, Zaher Omareen and Nawara Mahfoud, eds., Syria Speaks: Art and Culture from the Frontline. London: Saqi Books, 2014.\n\nUkrist Pathmanand, \”Thaksin\’s Achilles\’ Heel: The Failure of Hawkish Approaches in the Thai South,\” In Duncan McCargo, ed., Re-thinking Thailand\’s Southern Violence. Singapore: NUS Press, 2007.\n\nDavid Runciman, \”Francis Fukuyama\’s &lsquo;Political Order and Political Decay\’,\” Financial Times (Online) 26 September (2014). Accessed from http://www.ft.com/cms/s/0/67b8f490-4269-11e4-9818-00144feabdc0.html.\n\nDan Slater, \”Revolutions, Crackdowns, and Quiescence: Communal Elites and Democratic Mobilization in Southeast Asia.\” American Journal of Sociology 115:1 (July 2009), 203-254. \n\nMike Watson, \”Jacques Ranci&egrave;re: The Front National\’s useful idiots,\” Eutopia Institute of Ideas (On Middle East, Islam, Diversity and Democracy) 11 December 2015. Accessed from &lt;http://www.eutopiainstitute.org/2015/12/jacques-ranciere-the-front-nationals-useful-idiots/&gt;. \n\nElisabeth Jean Wood. Field Research. In The Oxford Handbook of Comparative Politics. New York: Oxford University Press, 2009. 123-146.\n\nLiao Yiwu. The Corpse Walker: Real Life Stories, China From the Bottom Up. Anchor Books, 2009.\n",
+            assessment: "1) Participation and class attendance 20%\n2) 1 MIDTERM EXAM 20%\n3) 1 Group Presentation 20%\n4) 1 Reading Summary 10%\n5) 1 Final Paper (6-8 pages) 30%",
+            acdmBackground: "This is a 400-level course, which means you will need to apply more effort (than typical 200-300-level courses) to reading and writing.",
+            links: "",
+            policies: "",
+        },
+    },{
+        className: "Composition II",
+        classCode: "CMP2",
+        readings: [{
+            rdnglink: "",
+            rdngName: "A Writer's Reference",
+            image: "",
+            readBy: "23/05",
+            read: false,
+            commentNum: 0,
+            comment: [{
+                author: "",
+                body: "",
+            }],
+        }],
+        infos: {
+            description: "Writing Stuff",
+            objectives: "Be annoying and stupid",
+            textbooks: "",
+            refbooks: "",
+            assessment: "",
+            acdmBackground: "",
+            links: "",
+            policies: "",
+        },        
+    },{
+        className: "The History of Baking",
+        classCode: "HE101",
+        readings: [{
+            rdnglink: "",
+            rdngName: "Basic Cakes",
+            image: "",
+            readBy: "13/05",
+            read: false,
+            commentNum: 0,
+            comment: [{
+                author: "",
+                body: "",
+            }],
+        }],
+        infos: {
+            description: "CAKES",
+            objectives: "MORE CAKES",
+            textbooks: "",
+            refbooks: "",
+            assessment: "",
+            acdmBackground: "",
+            links: "",
+            policies: "",
+        },        
+    }
+];

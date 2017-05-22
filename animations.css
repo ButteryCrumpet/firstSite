@@ -1,0 +1,8 @@
+.fullsect.ng-hide {
+  opacity: 0;
+}
+
+.commentList.ng-enter {
+    opacity: 0;
+    transform: translate(0,10vh);
+}

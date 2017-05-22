@@ -1,0 +1,11 @@
+<div>
+    <div class="discTopic" ng-repeat='topics in tabCtrl.inf[tabCtrl.tabY].discussions' ng-class="{topicActive: $index == tabCtrl.actPostParent}">
+        <h3>{{topics.topic}}</h3>
+        <div ng-click="tabCtrl.setActPost($parent.$index, $index)" class="discPost" ng-repeat="post in topics.posts">
+            <h4>{{post.title}}</h4>
+            <div ng-if="tabCtrl.actPostChild == this.$index && tabCtrl.actPostParent == this.$parent.$index">
+                <div class="postContent" ng-repeat="contents in post.content"><p>{{contents}}</p></div>
+            </div>
+        </div>
+    </div>
+</div>

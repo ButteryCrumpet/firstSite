@@ -1,0 +1,14 @@
+<div id="rcmnts">
+    <div class="cmntWrap">
+        <ul>
+            <li class="commentList" ng-repeat="comment in libCtrl.pdfs[libCtrl.actvParent].readings[libCtrl.actvChild].comment">
+                <p>"{{comment.body}}"<em> - {{comment.author}}</em></p>
+            </li>
+        </ul>
+        <div id="scrollTarget"></div>
+    </div>
+    <form name="commentForm">
+        <textarea id="cmmntBox" ng-model='libCtrl.addnew.body' placeholder="Comment here..." title="Comment" rows="3" cols="25"></textarea>
+        <img src="/pictures/cmnnt%20button.jpg" id="cmmtButton" class="button" ng-click="libCtrl.submitCmmnt()"/>
+    </form>
+</div>
